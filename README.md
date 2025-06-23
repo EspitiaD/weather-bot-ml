@@ -1,30 +1,49 @@
-# weather-bot-ml
-# Bot de predicción climática con Python
+# 🤖 Weather Bot con Machine Learning
 
-Este proyecto utiliza un modelo de Machine Learning para predecir si lloverá o no, basándose en datos atmosféricos (temperatura, presión, humedad, etc.).
+Este proyecto es un bot de predicción del clima que combina datos meteorológicos reales de una API con un modelo de Machine Learning. Usa información actual del clima (como temperatura, humedad, presión, etc.) para predecir la probabilidad de lluvia u otras condiciones.
 
-🔧 Herramientas usadas:
-- Python
-- Pandas
-- Scikit-learn
-- API de clima
+## 🌐 ¿Qué hace este bot?
 
-💡 Aplicación: Este proyecto puede extenderse a predicciones más complejas o integrarse con sensores reales en zonas rurales.
+1. Consulta los datos del clima actual usando una API gratuita.
+2. Usa un modelo de Machine Learning (`RandomForestClassifier`) entrenado con datos reales para predecir si lloverá o no.
+3. Muestra la predicción junto con el clima actual en consola.
+4. (Opcional) Genera gráficos de correlación entre variables climáticas.
 
-✅ Estado: Funcional, con datos de prueba. En desarrollo para integración en tiempo real.
+## 🚀 Cómo instalar y correr
 
-Pasos para correr el proyecto:
-Clona este repositorio y entra a la carpeta:
-git clone https://github.com/EspitiaD/weather-bot-ml.git && cd weather-bot-ml
+1. Clona el repositorio:
 
-Crea un entorno virtual e instálalo:
-python3 -m venv venv && source venv/bin/activate
-(En Windows: venv\Scripts\activate.bat)
+```bash
+git clone https://github.com/EspitiaD/weather-bot-ml.git
+cd weather-bot-ml
 
-Instala las dependencias necesarias:
+Crea un entorno virtual y actívalo:
+
+python3 -m venv venv
+source venv/bin/activate  # En Windows: .\venv\Scripts\activate
+
+Instala las dependencias:
+
 pip install -r requirements.txt
 
-Ejecuta el script del bot:
+Ejecuta el bot:
+
 python clima_ml.py
 
-El bot entrenará un modelo para predecir lluvia con base en datos climáticos. Mostrará la precisión del modelo, una predicción con datos de ejemplo y un gráfico de correlaciones entre variables.
+🧪 Ejemplo de salida
+
+🌡️  Clima en vivo:
+Temperatura: 15.1°C
+Humedad: 91%
+Presión: 1015.5 hPa
+Precipitación: 0.00 mm
+
+🤖 Predicción ML:
+¿Lloverá mañana?: No
+
+📦 Requisitos
+
+Revisa el archivo requirements.txt para ver las librerías utilizadas.
+
+📌 Autor
+Creado por EspitiaD como proyecto educativo para aprender Python, APIs y Machine Learning.
