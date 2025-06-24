@@ -70,4 +70,4 @@ Si te interesa colaborar, proponer mejoras o contratar desarrollo de soluciones 
 www.linkedin.com/in/espitiad
 
 ![Vista previa del bot](correlaciones_clima.png)
-![correlaciones_clima](https://github.com/user-attachments/assets/0b4c15ea-4638-4265-9762-8cd3ba3b0fff)
+
