@@ -4,10 +4,27 @@ Este proyecto es un bot de predicción del clima que combina datos meteorológic
 
 ## 🌐 ¿Qué hace este bot?
 
-1. Consulta los datos del clima actual usando una API gratuita.
-2. Usa un modelo de Machine Learning (`RandomForestClassifier`) entrenado con datos reales para predecir si lloverá o no.
-3. Muestra la predicción junto con el clima actual en consola.
-4. (Opcional) Genera gráficos de correlación entre variables climáticas.
+- Obtiene **datos del clima en tiempo real** (temperatura, humedad, presión, etc.) desde una API pública.
+- Procesa estos datos y predice si **lloverá próximamente** usando un modelo entrenado.
+- Visualiza relaciones entre variables con gráficos (opcional).
+- Es una base para futuros bots más complejos (clima por ciudad, predicción avanzada, alarmas, etc.).
+
+- ## 🛠️ Tecnologías utilizadas
+
+- Python 3.x  
+- Pandas  
+- Scikit-learn  
+- Requests  
+- Matplotlib / Seaborn  
+- API de Open-Meteo.org
+
+- ## 🧠 ¿Qué aprendí con este proyecto?
+
+- Cómo funciona el ciclo básico del Machine Learning: recolección → entrenamiento → predicción.
+- Cómo usar una API real para obtener datos en vivo.
+- Procesamiento de datos con Pandas.
+- Entrenamiento de modelos con Scikit-learn.
+- Generación de visualizaciones y exportación de predicciones.
 
 ## 🚀 Cómo instalar y correr
 
@@ -47,3 +64,10 @@ Revisa el archivo requirements.txt para ver las librerías utilizadas.
 
 📌 Autor
 Creado por EspitiaD como proyecto educativo para aprender Python, APIs y Machine Learning.
+
+📬 Contacto
+Si te interesa colaborar, proponer mejoras o contratar desarrollo de soluciones con IA:
+www.linkedin.com/in/espitiad
+
+![Vista previa del bot](correlaciones_clima.png)
+![correlaciones_clima](https://github.com/user-attachments/assets/0b4c15ea-4638-4265-9762-8cd3ba3b0fff)
