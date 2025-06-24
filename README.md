@@ -69,5 +69,5 @@ Creado por EspitiaD como proyecto educativo para aprender Python, APIs y Machine
 Si te interesa colaborar, proponer mejoras o contratar desarrollo de soluciones con IA:
 www.linkedin.com/in/espitiad
 
-![Vista previa del bot](correlaciones_clima.png)
+![Vista previa del bot](https://github.com/EspitiaD/weather-bot-ml/blob/main/correlaciones_clima.png?raw=true)
 
